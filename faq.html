@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Twoday · FAQ</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="frame">
+      <header>
+        <div class="brand" aria-label="Twoday">
+          <div class="logo" aria-hidden="true">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 18V6"
+                stroke="rgba(15,15,20,0.85)"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M10 18V10"
+                stroke="rgba(15,15,20,0.85)"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M16 18V4"
+                stroke="rgba(15,15,20,0.85)"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M22 18H2"
+                stroke="rgba(15,15,20,0.55)"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <span>Twoday</span>
+        </div>
+
+        <nav aria-label="Primary">
+          <a class="pill" href="index.html">Home</a>
+          <a class="pill" href="about.html">About Us</a>
+          <a class="pill is-active" href="faq.html">FAQ</a>
+          <a class="pill" href="contact.html">Contact Us</a>
+        </nav>
+      </header>
+
+      <section class="section" aria-label="FAQ">
+        <h2>FAQ</h2>
+
+        <div class="faq">
+          <details class="faq-item">
+            <summary>
+              <span>How do I connect my calendar?</span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="answer">
+              The first time you launch Twoday, it will ask for permission to
+              access your calendar. Click on Allow Full Access.
+              <img
+                class="faq-image faq-image--narrow"
+                src="allowaccess.png"
+                alt="Twoday calendar access permission prompt"
+              />
+              Twoday is read-only, so it will never write anything back to your
+              calendar. There is no risk of accidentally moving, editing, or
+              deleting an event. (This is actually a feature!) After granting
+              access, then use Settings to select your calendars.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Can I choose which calendars to sync?</span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="answer">
+              Yes. In the <strong>Twoday → Settings</strong> menu, you can
+              select which calendars to show. It is placed in Settings so it is
+              less likely to be changed by accident.
+              <img
+                class="faq-image"
+                src="settings.png"
+                alt="Twoday settings screen showing calendar selection"
+              />
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Is any information stored within this app?</span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="answer">
+              No. You continue to use Apple Calendar to create and edit events.
+              Twoday simply presents today and tomorrow in a cleaner,
+              easier-to-read view.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Can I sync with other calendars other than Apple?</span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="answer">
+              Yes, indirectly. Twoday does not connect to Google Calendar or
+              Outlook on its own, but Apple Calendar can subscribe to those
+              calendars. Once they appear in Apple Calendar, Twoday can display
+              them.
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
